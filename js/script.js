@@ -14,7 +14,6 @@ const noakhaliAccount = document.getElementById('noakhali-account');
 const feniAccount = document.getElementById('feni-account');
 const quotaAccount = document.getElementById('quota-account');
 
-// Donate Noakhali //
 let newBalance = parseFloat(noakhaliAccount.innerText);
 noakhaliDonateButton.addEventListener('click', function(){
     const myBalance = getInnerTextValue('my-balance');
